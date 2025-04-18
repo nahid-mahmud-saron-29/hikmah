@@ -10,5 +10,13 @@ class Program
         Console.Write("Enter your name: ");
         string name=Console.ReadLine();
         Console.WriteLine(name);
+
+        if(num>=18)
+        {
+            Console.Write("You are eligible for voting!");
+        }
+        else{
+            Console.Write("You are not eligible for voting!");
+        }
     }
 }
